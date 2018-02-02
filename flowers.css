@@ -1,0 +1,35 @@
+body{
+background-color:#FBF6CA
+
+
+}
+.div1{
+ background-image: url('https://i.pinimg.com/736x/f0/b6/03/f0b6030bcf754e270057bb5554709833--wallpaper-samples-pattern-wallpaper.jpg');
+text-align:center;
+font-family: 'Cherry Swash';
+font-size:20px
+}
+
+h1{
+font-size:70px;
+  font-family:'Pacifico';
+}
+.season {
+text-align:center;
+font-family: 'Cherry Swash'
+}
+.allimg{
+border-radius:50%;
+width:300px;
+height:300px;
+}
+#coverimg {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+width:700px;
+height:500px;
+}
+h3{
+font-size:30px
+}
