@@ -1,0 +1,123 @@
+body{
+  background-image: url("images/trees.jpg");
+  background-size: cover;
+  background-position: center;
+  color:#003300;
+  font-family: arial;
+  text-align: center;
+  margin: 0px;
+}
+nav{
+  font-family: sans-serif, arial;
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #ffe6cc
+}
+nav a{
+  padding-left: 20px;
+  padding-right:20px;
+  text-decoration: none;
+  color:#003300;
+  border-color: #003300;
+  border-bottom: 2px;
+}
+header, #contact-box{
+  /*, section*/
+  background-color: #ffe6cc;
+  opacity: .8;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display:block;
+  vertical-align: middle;
+}
+header h1{
+  font-size: 40px;
+  text-shadow: 2px 2px 4px #293d3d;
+}
+header p{
+  font-size: 25px;
+}
+/* start of project section*/
+h3 a{
+  font-size: 20px;
+  text-decoration: none;
+}
+.project{
+  background-color: transparent;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project-title{
+  width:100%;
+  background-color: #ffe6cc;
+  opacity: .8;
+  margin-bottom: 30px;
+}
+.project-column-1{
+  width: 33%;
+  opacity:.95;
+}
+.project-img{
+  height:200px;
+  padding:3px;
+}
+#western-flowers{
+  border:2px solid black;
+  padding: 5px 15px;
+  display:inline-block;
+  background-color: #6d916e;
+  color:#003300;
+}
+#western-flowers a {
+  color:#003300;
+}
+/* end of project section*/
+.empty-space{
+  padding: 100px;
+}
+#contact-box{
+  opacity: .9;
+  padding: 15px;
+}
+.contact{
+  margin: 5px;
+  padding:10px 40px;
+  font-size: 15px;
+  text-align: left;
+}
+#contact-message{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer{
+  padding:30px;
+}
+footer a {
+  color:white;
+}
+
+/****************   about page   **********************/
+/* start header for about page*/
+.header{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  opacity: 1.0;
+}
+.header-title{
+  width:100%;
+}
+.header-text{
+  width:50%;
+}
+#mushroomimg{
+  height: 300px;
+  opacity: 1.0;
+}
+#headshot-img{
+  height:300px;
+}
+/* end header for about page*/
